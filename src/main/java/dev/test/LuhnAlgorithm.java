@@ -13,21 +13,7 @@ package dev.test;
 public class LuhnAlgorithm {
 
     public boolean check(String input) {
-        int length = input.length();
-        int sum = 0;
-        int position = 1;
-        for (int i = length-1; i >= 0; i--) {
-            int num = Integer.parseInt(String.valueOf(input.charAt(i)));
-            if (position % 2 == 0) {
-                num = num * 2;
-                if (num >= 10) {
-                    num = (num % 10) + 1;
-                }
-            }
-            sum += num;
-            position++;
-        }
-        return (sum % 10) == 0;
+        return false;
     }
 
 }
