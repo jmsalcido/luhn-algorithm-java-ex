@@ -15,9 +15,14 @@
                     <target>8</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.0</version>
+            </plugin>
         </plugins>
     </build>
-    <name>excersice</name>
+    <name>luhn-algorithm</name>
     <url>http://maven.apache.org</url>
     <dependencyManagement>
         <dependencies>
