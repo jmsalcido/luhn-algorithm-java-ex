@@ -12,7 +12,7 @@ package dev.test;
  */
 public class LuhnAlgorithm {
 
-    public boolean check(String solution) {
+    public boolean check(String input) {
         return false;
     }
 

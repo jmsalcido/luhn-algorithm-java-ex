@@ -3,7 +3,7 @@ Simple Maven project for testing the Luhn Algorithm.
 
 This is aimed to be used as an interview exercise.
 
-## Instructions
+## Instructions to run
 Run in your terminal:
 
 ```shell
@@ -43,3 +43,5 @@ We should see an output like this one at the end:
 [INFO] Finished at: 2022-06-30T11:31:51-07:00
 [INFO] ------------------------------------------------------------------------
 ```
+
+Or if you want, create a branch and send a PR, tests will run automatically for you.
